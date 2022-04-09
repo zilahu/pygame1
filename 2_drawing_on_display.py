@@ -10,7 +10,7 @@ pygame.display.set_caption("Drawing objects")
 
 running = True
 
-#Define volors
+#Define colors
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 RED = (255, 0, 0)
@@ -20,7 +20,7 @@ YELLOW = (255, 255,0)
 CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 
-# Set background color
+# Set background colour
 display_surface.fill(BLUE)
 
 pygame.draw.line(display_surface, RED, (0,0), (100,100), 5)
