@@ -20,14 +20,14 @@ running = True
 
 # Game main loop
 while running:
-	for event in pygame.event.get():
-		if event.type == pygame.QUIT:
-			running = False
-	
-	display_surface.blit(dragon_left_image, dragon_left_rect)
-	display_surface.blit(dragon_right_image, dragon_right_rect)
-	
-	# update display
-	pygame.display.update()
+  for event in pygame.event.get():
+    if event.type == pygame.QUIT:
+      running = False
+  
+  display_surface.blit(dragon_left_image, dragon_left_rect)
+  display_surface.blit(dragon_right_image, dragon_right_rect)
+  
+  # update display
+  pygame.display.update()
 
 pygame.quit()
