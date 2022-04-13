@@ -23,12 +23,15 @@ MAGENTA = (255, 0, 255)
 # Set background colour
 display_surface.fill(BLUE)
 
+# draw lines
 pygame.draw.line(display_surface, RED, (0,0), (100,100), 5)
 pygame.draw.line(display_surface, GREEN, (100,100), (200,300), 1)
 
+# draw circles
 pygame.draw.circle(display_surface, WHITE, (WINDOW_WIDTH//2, WINDOW_HEIGHT//2), 200, 6)
 pygame.draw.circle(display_surface, YELLOW, (WINDOW_WIDTH//2, WINDOW_HEIGHT//2), 195, 0)
 
+# draw rectangles
 pygame.draw.rect(display_surface, CYAN, (500, 0, 100, 100)) 
 pygame.draw.rect(display_surface, MAGENTA, (500, 100, 50, 100))
 
@@ -41,3 +44,4 @@ while running:
 		pygame.display.update()
 
 pygame.quit()
+
